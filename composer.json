@@ -1,11 +1,26 @@
 {
     "name": "sapio/geocode",
     "description": "PHP geocoding for laravel 5 & 5.1 using Google API",
+    "keywords": ["beasley", "sapioweb", "laravel", "service providers", "api", "geocode", "google", "service provider"],
+    "homepage": "http://localhost",
+    "license" : "MIT",
     "authors": [
         {
             "name": "Andreas Beasley",
             "email": "andreas@sapioweb.com"
         }
     ],
-    "require": {}
+    "require": {
+    	"php": ">=5.4.0",
+    },
+    "require-dev": {
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "4.7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sapio\\Geocode\\": "src"
+        }
+    },
+    "minimum-stability": "stable"
 }
