@@ -18,12 +18,16 @@ Include `Sapio\Geocode\GeocodeServiceProvider::class,` in your `config/app.php`
 
 ```php
 use Sapio\Geocode\GeoCode as Geocode;
+
 Route::get('/', function () {
 
-	$address = '3330 florecita dr Altadena Ca 91101';
+	$address = '1600 Wigwam Pkwy, Henderson, NV 89074';
 
 	$geocode = Geocode::getCoordinates($address);
 
 	return view('welcome')->with(['geocode' => $geocode]);
 });
 ```
+
+Pull Latitude: `$geocode['lat']`
+Pull Longitude: `$geocode['lng']`
