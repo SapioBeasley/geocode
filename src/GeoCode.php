@@ -5,9 +5,8 @@ namespace Sapio\Geocode;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
-use App\Http\Controllers\Controller;
 
-class GeoCodeController extends Controller
+class GeoCode
 {
     /**
      * Display a listing of the resource.

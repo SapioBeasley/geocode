@@ -23,6 +23,6 @@ class GeocodeServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('Sapio\Geocode\GeoCodeController');
+        $this->app->make('Sapio\Geocode\GeoCode');
     }
 }
