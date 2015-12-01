@@ -1,0 +1,11 @@
+{
+    "name": "sapio/geocode",
+    "description": "PHP geocoding for laravel 5 & 5.1 using Google API",
+    "authors": [
+        {
+            "name": "Andreas Beasley",
+            "email": "andreas@sapioweb.com"
+        }
+    ],
+    "require": {}
+}
