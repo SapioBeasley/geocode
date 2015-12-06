@@ -6,7 +6,7 @@
 [![Latest Unstable Version](https://poser.pugx.org/sapioweb/geocode/v/unstable)](https://packagist.org/packages/sapioweb/geocode)
 [![License](https://poser.pugx.org/sapioweb/geocode/license)](https://packagist.org/packages/sapioweb/geocode)
 
-PHP geocoding for laravel using Google API
+PHP Address Geocoding for laravel using Google API
 
 ## Install
 
