@@ -1,5 +1,5 @@
 {
-    "name": "sapio/geocode",
+    "name": "sapioweb/geocode",
     "description": "PHP geocoding for laravel 5 & 5.1 using Google API",
     "keywords": ["beasley", "sapioweb", "laravel", "service providers", "api", "geocode", "google", "service provider"],
     "homepage": "http://localhost",
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Sapio\\Geocode\\": "src"
+            "Sapioweb\\Geocode\\": "src"
         }
     },
     "minimum-stability": "stable"
