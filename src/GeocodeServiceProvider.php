@@ -1,6 +1,6 @@
 <?php
 
-namespace Sapio\Geocode;
+namespace Sapioweb\Geocode;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -23,6 +23,6 @@ class GeocodeServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('Sapio\Geocode\GeoCode');
+        $this->app->make('Sapioweb\Geocode\GeoCode');
     }
 }
