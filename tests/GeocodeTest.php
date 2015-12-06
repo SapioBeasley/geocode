@@ -1,5 +1,5 @@
 <?php
-use Sapio\Geocode\GeoCode as Geocode;
+use Sapioweb\Geocode\GeoCode as Geocode;
 
 class GeocodeTest extends \PHPUnit_Framework_TestCase
 {
