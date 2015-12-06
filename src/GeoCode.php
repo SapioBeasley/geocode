@@ -1,6 +1,6 @@
 <?php
 
-namespace Sapio\Geocode;
+namespace Sapioweb\Geocode;
 
 use Illuminate\Http\Request;
 
