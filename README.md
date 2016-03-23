@@ -17,13 +17,16 @@ Include `Sapioweb\Geocode\GeocodeServiceProvider::class,` in your `config/app.ph
 ## Usage
 
 ```php
-use Sapioweb\Geocode\GeoCode as Geocode;
+use Sapioweb\Geocode\GeoCode;
 
 Route::get('/', function () {
 
+
+	$geocode = new Geocode;
+
 	$address = '1600 Wigwam Pkwy, Henderson, NV 89074';
 
-	$geocode = Geocode::getCoordinates($address);
+	$geocode = $geocode->getCoordinates($address);
 
 	return view('welcome')->with(['geocode' => $geocode]);
 });
