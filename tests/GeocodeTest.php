@@ -14,7 +14,7 @@ class GeocodeTest extends \PHPUnit_Framework_TestCase
     $expectedLng = '-118.162214';
 
     // Test
-    $this->assertEquals($result['lat'], $expectedLat);
-    $this->assertEquals($result['lng'], $expectedLng);
+    $this->assertEquals($result['geometry']['location']['lat'], $expectedLat);
+    $this->assertEquals($result['geometry']['location']['lng'], $expectedLng);
   }
 }
