@@ -32,8 +32,8 @@ Route::get('/', function () {
 });
 ```
 
-Pull Latitude: `$geocode['lat']`
-Pull Longitude: `$geocode['lng']`
+Pull Latitude: `$geocode['geometry']['location']['lat']`
+Pull Longitude: `$geocode['geometry']['location']['lng']`
 
 ### License
 
