@@ -21,7 +21,7 @@ class GeoCode
         $response = json_decode($response, true);
 
         if (isset($response['results'][0])) {
-            $addressLatLong = $response['results'][0];
+            $addressLatLong = $response['results'][0]['geometry']['location'];;
         }
 
         return $addressLatLong;
